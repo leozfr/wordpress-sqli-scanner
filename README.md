@@ -2,10 +2,11 @@
   <img src="assets/banner.png" alt="WordPress SQLi Scanner Banner" />
 </p>
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/leozfr/wordpress-sqli-scanner?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/leozfr/wordpress-sqli-scanner?style=flat-square" alt="GitHub Release Badge" />
+</p>
 
 # WordPress Plugin SQL Injection Scanner 🚀
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red.svg)
