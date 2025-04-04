@@ -21,7 +21,7 @@ ve tüm verileri **düzenli bir şekilde kayıt eder.**
 - [Kullanım](#-kullanım)
 - [Notlar](#-notlar)
 - [Lisans](#-lisans)
-- [Lisans](#-screenshot)
+- [Screenshot](#-screenshot)
 - [Yasal Uyarı](#-yasal-uyarı)
 
 ---
