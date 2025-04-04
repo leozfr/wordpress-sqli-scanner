@@ -34,4 +34,4 @@ Bu projede katkıda bulunurken:
 
 ---
 
-Teşekkürler! 🎉
+Teşekkürler! 🎉🎉
