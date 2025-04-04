@@ -1,0 +1,2 @@
+http://example-vulnerable-site.com/?id=1'
+http://another-injected-wordpress-site.net/page.php?id=10'
