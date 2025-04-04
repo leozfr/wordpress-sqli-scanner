@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/leozfr/wordpress-sqli-scanner?style=flat-square" alt="GitHub Release Badge" />
+  <a href="https://github.com/leozfr/wordpress-sqli-scanner/releases">
+    <img src="https://img.shields.io/github/v/release/leozfr/wordpress-sqli-scanner?style=flat-square" alt="GitHub Release Badge" />
+  </a>
 </p>
 
 # WordPress Plugin SQL Injection Scanner 🚀
